@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<title></title>
+	<link rel="stylesheet" href="css/reset.css">
+	<script type="text/javascript" src="js/echarts.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/pie.js"></script>
+	<style>
+		body,html,{
+			width:100%;
+			height:100%;
+		}
+		.xtba-common-content{
+			width:80%;
+			height:80%;
+			position: relative;
+		}
+		.xtba-echarts-top,.xtba-echarts-bottom{
+			width:100%;
+			height:100%;
+			
+		}
+		.xtba-echarts-top{
+			position: relative;
+			z-index:1;
+		}
+		.xtba-echarts-bottom{
+            position: absolute;
+            top:0;
+            left:0;
+		}
+	</style>
+</head>
+<body>
+<div class="xtba-common-content ">
+    <div class="xtba-echarts xtba-echarts-top" id="js_echarts1"></div>
+    <div class="xtba-echarts xtba-echarts-bottom" id="js_echarts11"></div>
+</div>
+</body>
+</html>
